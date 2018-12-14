@@ -1,0 +1,302 @@
+body {
+    background-image: url(../images/background1.jpg); 
+    background-size: cover;
+    margin: 0px;
+}
+
+#main-container {
+    width: 1000px;
+    height: 700px;
+    margin:0 auto;
+    position: relative;
+}
+
+#logo {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    background-color: black;
+    width: 1000px;
+    height: 50px; 
+    position: absolute; 
+}
+
+#logo ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    float: right;
+    margin-right: 70px;
+    color: white;
+}
+
+#logo ul li {
+    display: inline;
+} 
+
+#logo li a {
+    color: white;
+}
+
+#logo li a:hover {
+    background-color: red;
+    height: 40px;
+}
+
+#description {
+    width: 1000px;
+    height: 200px;
+    top:  100px;
+    background-image: url(../images/characters.jpg);
+    border: solid 2px red;
+    position: absolute;
+}
+
+#description2 {
+    width: 1000px;
+    top: 100px;
+    background-color: black;
+    border: solid 2px red;
+    position: absolute;
+}
+
+
+#platforms {
+    top: 350px;
+    width: 1000px;
+    height: 300px;
+    border: solid 2px red;
+    position: relative;
+    background-color: black;
+}
+
+#contact {
+    top: 150px;
+    height: 500px;
+    width: 1000px;
+    background-color: black;
+    border: solid 2px red;
+    position: absolute;
+
+}
+
+#product-container {
+    position: relative;
+    display: inline-flex;
+    left: 35px;
+    top: 0px;
+}
+
+#product-container img { 
+    position: absolute;
+    width: 90px;
+    height: 120px;
+    left: 30px;
+    top: 65px;
+}
+
+#contact h1 a {
+    color: red;
+}
+
+#Game-Container {
+    position: relative;
+    left: 8px;
+    border: 2px solid red;
+    background-color: black;
+    margin-bottom: 100px;
+}
+
+.Checkout {
+    position: relative;
+    height: 600px;
+    width: 996px;
+    top: 60px;
+}
+
+.ps4 {
+    position: absolute;
+    left: 40px;
+    bottom: 130px;
+    top: 50px;
+}
+
+.XboxOne {
+    position: absolute;
+    right: 40px;
+    bottom: 130px;
+    top: 50px;
+}
+
+.Microsoft {
+    position: absolute;
+    bottom: 130px;
+    left: 380px;
+    top: 50px;
+}
+
+.logo {
+    border: solid 2px red;
+    position: relative;
+    left: 8px;
+}
+
+.productList{
+    border-radius: 10px;
+    margin: 0 auto;
+    position: relative;
+    top: 10px;
+  }
+  .product-container{
+    position: relative;
+    top: 0px;
+    width: 249px;
+    height: 320px;
+    display: inline-block;
+    margin-top: 5px;
+    margin-right: 10px;
+    margin-left: 5px;
+    left: 100px;
+    border: 2px solid red;
+  }
+  
+  .productName{
+    width: 100%;
+    height: 25px;
+    background-color: black;
+    background: rgb(255,255,255,);
+    display: block;
+    margin: 200px auto 0px;
+    line-height: 1;
+    text-align: center;
+    font-size: 15px;
+    font-family:  Arial Black;
+    color: red;
+    padding-top: 10px;
+    margin-top: 250px;
+    z-index: 1;
+  }
+  .productPrice{
+    width: 50px;
+    height:30px;
+    z-index: 3;
+    background-color: black;
+    font-size: 15px;
+    text-align: center;
+    display: block;
+    float: right;
+    margin-top: -75px;
+    opacity: 1;
+    line-height: 2;
+    background: black;
+    color: red;
+  }
+  
+  .productDescription{
+    height: 35px;
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    z-index: 1;
+  }
+
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+
+img {
+    width: 250px;
+    height: 200px;
+}
+
+h1 {
+    color: red;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 40px;
+}
+
+h2 {
+    color: white;
+    text-align: center; 
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+}
+
+h2.contact {
+    color:red;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+}
+
+footer {
+    position: fixed;
+    display: block;
+    width: 996px;
+    height: 30px;
+    left: 268px;
+    bottom: 0px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    border: solid 2px red;
+    background-color: black;
+}
+
+footer p {
+    margin-top: 5px;
+}
+
+footer p a {
+    color: white;
+}
+
+input[type=submit] {
+    position: relative;
+    background-color: red;
+    color: black;
+    width: 250px;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    left: 370PX;
+    top: 50px;
+}
+
+input[type=text], select, textarea {
+    position: relative;
+    width: 900px;
+    padding: 12px;
+    border: 1px solid red;
+    top: 30px;
+    left: 37px;
+    margin-top: 10px;
+    resize: vertical;
+}
+
+table.checkoutTable {
+    position: relative;
+    color: red;
+    background-color: black;
+    width: 700px;
+    border-collapse: collapse;
+    left: 140px;
+}
+
+table.checkoutTable, th, td {
+    border: 2px solid red;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table.total {
+    color: red;
+    background-color: black;
+    position: relative;
+    border-collapse: collapse;
+    left:  736px;
+}
